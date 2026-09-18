@@ -1,0 +1,11 @@
+
+services:
+  mvc:
+    build: ./projeto-2-laravel
+    ports:
+      - "8092:80"
+
+  api:
+    build: ./projeto-3-api
+    ports:
+      - "8093:3000"
